@@ -1,0 +1,19 @@
+@import "../App.scss";
+nav {
+  @include flex-alignCenter;
+  position: fixed;
+  font-size: 30px;
+  top: 50px;
+  left: $margin-left;
+  z-index: 20;
+  font-weight: bold;
+  ul {
+    @include flex-center-center;
+    list-style: none;
+    font-size: 20px;
+    li {
+      margin-left: 26px;
+      font-weight: normal;
+    }
+  }
+}

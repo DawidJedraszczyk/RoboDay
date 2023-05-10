@@ -1,0 +1,25 @@
+@mixin flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-alignCenter {
+  display: flex;
+  align-content: center;
+}
+@mixin flex-justifyCenter {
+  display: flex;
+  justify-content: center;
+}
+$margin-left: 15vw;
+$background-color: #010030;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.app {
+  width: 100vw;
+}

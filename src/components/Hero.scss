@@ -1,0 +1,74 @@
+@import "../App.scss";
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  min-height: 850px;
+  background: hsla(284, 97%, 14%, 1);
+
+  background: linear-gradient(
+    45deg,
+    hsla(284, 97%, 14%, 1) 29%,
+    hsla(298, 100%, 17%, 1) 52%,
+    hsla(319, 100%, 28%, 1) 75%,
+    hsla(338, 100%, 47%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(284, 97%, 14%, 1) 29%,
+    hsla(298, 100%, 17%, 1) 52%,
+    hsla(319, 100%, 28%, 1) 75%,
+    hsla(338, 100%, 47%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(284, 97%, 14%, 1) 29%,
+    hsla(298, 100%, 17%, 1) 52%,
+    hsla(319, 100%, 28%, 1) 75%,
+    hsla(338, 100%, 47%, 1) 100%
+  );
+  .catch-phrases {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    width: 470px;
+    position: absolute;
+    left: $margin-left;
+    height: 300px;
+    top: 250px;
+    z-index: 2;
+
+    .roboday {
+      display: flex;
+      flex-direction: column;
+      font-size: 53px;
+      font-weight: bold;
+      line-height: 1.2;
+      margin-bottom: 2rem;
+    }
+
+    &__middle {
+      font-size: 25px;
+      margin-bottom: 1.5rem;
+    }
+
+    &__smallest {
+      font-size: 20px;
+      margin-top: 2rem;
+      font-weight: normal;
+    }
+
+    &__gradient-line {
+      background: linear-gradient(90deg, #fd0076 0%, #55022a 100%);
+      height: 0.5rem;
+      width: 120px;
+      display: inline-block; /* make it behave like an inline element but with block properties */
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .circles {
+    width: 80%;
+    margin-left: $margin-left;
+  }
+}
