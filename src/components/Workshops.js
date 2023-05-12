@@ -1,10 +1,23 @@
 import React from "react";
-
+import "./Workshops.scss";
+import WorkshopsHeader from "./workshopsComponents/WorkshopsHeader";
+import Workshop from "./workshopsComponents/Workshop";
 function Workshops() {
+  const assemblyWorkshop = {
+    logo: "assembly-logo.png",
+    h3: "Assembly 8051",
+    text: "Zapoznanie się z podstawami języka Assembly 8051 oraz stworzenie swojego pierwszego programu.",
+  };
+
   return (
-    <h1 className="text-white text-4xl font-bold black">
-      Welcome to the Hero Section
-    </h1>
+    <div className="workshops">
+      <WorkshopsHeader />
+      <div className="container">
+        <Workshop {...assemblyWorkshop} />
+        <Workshop {...assemblyWorkshop} />
+        <Workshop {...assemblyWorkshop} />
+      </div>
+    </div>
   );
 }
 

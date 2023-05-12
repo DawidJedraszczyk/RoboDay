@@ -1,10 +1,13 @@
 import React from "react";
-
+import PersonalContact from "./contactCompontents/PersonalContact";
+import Patronites from "./contactCompontents/Patronites";
+import "./Contact.scss";
 function Contact() {
   return (
-    <h1 className="text-white text-4xl font-bold black">
-      Welcome to the Hero Section
-    </h1>
+    <div className="contact">
+      <PersonalContact />
+      <Patronites />
+    </div>
   );
 }
 

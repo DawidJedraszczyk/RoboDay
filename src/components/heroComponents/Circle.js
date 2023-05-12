@@ -7,7 +7,7 @@ const Circle = ({ size, color, position, index }) => {
     width: size,
     height: size,
     position: "absolute",
-    bottom: position.bottom,
+    top: position.top,
     left: position.left,
     zIndex: index,
   };

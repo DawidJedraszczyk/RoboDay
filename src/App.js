@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Schedule from "./components/Schedule";
 import Workshops from "./components/Workshops";
+import Awards from "./Awards";
 import Contact from "./components/Contact";
 import "./App.scss";
 
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Schedule />
       <Workshops />
+      <Awards />
       <Contact />
     </div>
   );
