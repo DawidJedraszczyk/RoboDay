@@ -1,14 +1,20 @@
 @import "../App.scss";
 nav {
-  @include flex-alignCenter;
+  display: flex;
+  align-items: center;
   position: fixed;
-  font-size: 30px;
-  top: 50px;
-  left: $margin-left;
+  font-size: 34px;
+  top: 0px;
+  height: 100px;
+  width: 100vw;
+  left: 0px;
   z-index: 20;
   font-weight: bold;
+  text-shadow: -1px 2px #000000;
+  padding-left: $margin-left;
   ul {
-    @include flex-center-center;
+    display: flex;
+    align-items: center;
     list-style: none;
     font-size: 20px;
     li {

@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Schedule from "./components/Schedule";
 import Workshops from "./components/Workshops";
-import Awards from "./Awards";
+import Awards from "./components/Awards";
 import Contact from "./components/Contact";
 import "./App.scss";
 

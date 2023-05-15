@@ -1,14 +1,12 @@
 import React from "react";
 import CatchPhrases from "./heroComponents/CatchPhrases";
-import Robot3d from "./heroComponents/Robot3d";
-import Circles from "./heroComponents/Circles";
+import Models3d from "./heroComponents/Models3d";
 import "./Hero.scss";
 function Hero() {
   return (
     <div className="hero">
       <CatchPhrases />
-      <Robot3d />
-      <Circles />
+      <Models3d />
     </div>
   );
 }
