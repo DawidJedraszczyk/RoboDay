@@ -9,7 +9,6 @@ Title: Line Follower Robot
 
 import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
-
 export default function Model(props) {
   const { nodes, materials } = useGLTF(
     "/assets/3dModels/lineFollower/scene-transformed.glb"

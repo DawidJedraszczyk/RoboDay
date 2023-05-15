@@ -1,13 +1,13 @@
 import { OrbitControls, Stage } from "@react-three/drei";
 import React from "react";
 import { Canvas, useThree } from "react-three-fiber";
-import LineFollowerScene from "./LineFollowerScene";
+import Model from "./LineFollowerScene";
 function LineFollowerModel() {
   return (
     <div className="LineFollower">
       <Canvas>
         <Stage>
-          <LineFollowerScene />
+          <Model />
         </Stage>
         <OrbitControls enableZoom={false} autoRotate />
       </Canvas>
