@@ -1,3 +1,6 @@
+Project still in progress...
 To start: 
 You have to install node.js <br>
-in terminal write npm start
+in terminal write <br>
+npm install react-scripts --save <br>
+npm start
