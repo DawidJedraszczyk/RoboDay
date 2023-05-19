@@ -1,0 +1,53 @@
+@import "./../../../App.scss";
+.workshops {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: $background-color;
+  height: 700px;
+  header {
+    margin-top: 40px;
+    text-align: center;
+    h3 {
+      font-size: 20px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    .schedule__gradient-line {
+      width: 420px;
+    }
+  }
+  .container {
+    margin-top: 80px;
+    display: flex;
+    width: 1150px;
+    justify-content: space-between;
+    .workshop {
+      width: 370px;
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      align-items: center;
+      background: linear-gradient(109.02deg, #4b507c 0%, #2e346c 100%);
+      border-radius: 16px;
+      p {
+        width: 82%;
+        margin-top: 10px;
+        font-size: 20px;
+        position: absolute;
+        bottom: 50px;
+      }
+      h3 {
+        font-size: 30px;
+        position: absolute;
+        bottom: 170px;
+      }
+      img {
+        position: absolute;
+        top: 30px;
+      }
+    }
+  }
+}

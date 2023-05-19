@@ -1,0 +1,56 @@
+@import "./../../../App.scss";
+.contact {
+  height: 700px;
+  width: 100vw;
+  background-color: $background-color;
+  display: flex;
+  justify-content: center;
+  .personal-contact {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 550px;
+    margin-right: 110px;
+    h3 {
+      margin-left: 35px;
+      font-size: 30px;
+    }
+    .schedule__gradient-line {
+      width: 170px;
+      margin: 5px 0px 40px 27px;
+    }
+    .container-personal-data {
+      width: 90%;
+      height: 500px;
+      border-radius: 16px;
+      background: linear-gradient(109.02deg, #4b507c 0%, #2e346c 100%);
+    }
+  }
+  .patronites {
+    margin-top: 50px;
+    width: 500px;
+    .schedule__gradient-line {
+      width: 450px;
+      margin: 5px 0px 40px 27px;
+    }
+    h3 {
+      margin-left: 35px;
+      font-size: 30px;
+    }
+    ul {
+      list-style: none;
+      li {
+        display: flex;
+        img {
+          width: 500px;
+        }
+        .small-container {
+          img {
+            width: 250px;
+          }
+        }
+      }
+    }
+  }
+}
