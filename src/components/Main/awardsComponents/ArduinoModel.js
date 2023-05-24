@@ -1,7 +1,8 @@
-import { OrbitControls, Stage } from "@react-three/drei";
 import React from "react";
+import { OrbitControls, Stage } from "@react-three/drei";
 import { Canvas, useThree } from "react-three-fiber";
 import ArduinoScene from "./ArduinoScene";
+import { FIRST_AWARD } from "./../../Content";
 const ArduinoModel = () => {
   return (
     <div className="award">
@@ -12,7 +13,7 @@ const ArduinoModel = () => {
         </Stage>
         <OrbitControls enableZoom={false} />
       </Canvas>
-      <p> Arduno Uno </p>
+      <p> {FIRST_AWARD} </p>
     </div>
   );
 };

@@ -1,8 +1,7 @@
-import React, { useRef } from "react";
+import React from "react";
 const Patronites = () => {
-  const patronitesRef = useRef();
   return (
-    <div className="patronites" patronitesRef={patronitesRef}>
+    <div className="patronites">
       <h3>PARTNERZY ROBODAY2023</h3>
       <div className="schedule__gradient-line" />
       <ul>

@@ -1,10 +1,11 @@
 import React from "react";
+import { WORKSHOPS_HEADER, WORKSHOPS_HEADER_CATCH_PHRASE } from "../../Content";
 
 const WorkshopsHeader = () => {
   return (
     <header>
-      <h3>CZEKAJA NA WAS</h3>
-      <h2>WARSZTATY I KONKURSY</h2>
+      <h3>{WORKSHOPS_HEADER_CATCH_PHRASE}</h3>
+      <h2>{WORKSHOPS_HEADER}</h2>
       <div className="schedule__gradient-line" />
     </header>
   );

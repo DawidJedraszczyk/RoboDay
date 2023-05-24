@@ -1,14 +1,15 @@
 import React from "react";
-import "./../../../App.scss";
-import "./Awards.scss";
+import { AWARDS_HEADER } from "./../../Content";
 import ArduinoModel from "./ArduinoModel";
 import MultimeterModel from "./MultimeterModel";
+import "./../../../App.scss";
+import "./Awards.scss";
 const Awards = () => {
   return (
     <div className="awards">
       <div className="awards-container">
         <header>
-          <h2>NAGRODY DO WYGRANIA W KONKURSACH</h2>
+          <h2>{AWARDS_HEADER}</h2>
         </header>
         <ArduinoModel />
         <MultimeterModel />

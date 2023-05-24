@@ -1,22 +1,23 @@
 import React, { useState } from "react";
 import Categories from "./Categories";
+import { EVENT_NAME } from "./../../Content";
 import "./Navbar.scss";
 
 const Navbar = () => {
-  const [navBackground, setNavBackground] = useState("transparent");
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const handleScroll = () => {
     if (window.pageYOffset > window.innerHeight) {
-      setNavBackground("#010030");
+      setIsScrolled(true);
     } else {
-      setNavBackground("transparent");
+      setIsScrolled(false);
     }
   };
 
   window.addEventListener("scroll", handleScroll);
   return (
-    <nav style={{ backgroundColor: navBackground }}>
-      ROBODAY
+    <nav className={isScrolled ? "backgroundColorIsSet" : ""}>
+      {EVENT_NAME}
       <Categories />
     </nav>
   );

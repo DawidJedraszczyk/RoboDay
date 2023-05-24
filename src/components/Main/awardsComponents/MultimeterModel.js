@@ -1,8 +1,8 @@
-import { OrbitControls, Stage } from "@react-three/drei";
-import * as THREE from "three";
 import React from "react";
+import { OrbitControls, Stage } from "@react-three/drei";
 import { Canvas } from "react-three-fiber";
 import MultimeterScene from "./MultimeterScene";
+import { SECOND_AWARD } from "../../Content";
 const MultimeterModel = () => {
   return (
     <div className="award">
@@ -13,7 +13,7 @@ const MultimeterModel = () => {
         </Stage>
         <OrbitControls enableZoom={false} />
       </Canvas>
-      <p> Miernik uniwersalny </p>
+      <p> {SECOND_AWARD} </p>
     </div>
   );
 };
