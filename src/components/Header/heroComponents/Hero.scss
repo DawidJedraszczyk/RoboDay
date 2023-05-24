@@ -35,7 +35,7 @@
     left: $margin-left;
     height: 300px;
     top: 250px;
-    z-index: 2;
+    z-index: 6;
 
     .roboday {
       display: flex;
@@ -79,7 +79,6 @@
     }
     .LineFollower {
       position: absolute;
-      top: 17vh;
       right: 15vw;
       width: 55vw;
       height: 60vh;

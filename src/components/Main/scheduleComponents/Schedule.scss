@@ -34,7 +34,7 @@
 .timeline {
   .line {
     position: absolute;
-    left: 40%;
+    left: 35%;
     height: 1840px;
     width: 10px;
     background-color: white;
@@ -42,7 +42,7 @@
   .events {
     position: absolute;
     top: calc(100vh + 300px);
-    left: calc(40% - 165px);
+    left: calc(35% - 165px);
     height: 1800px;
     display: flex;
     width: 800px;
@@ -114,6 +114,31 @@
             font-size: 30px;
             margin-bottom: 10px;
           }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .timeline {
+    .line {
+      left: 20%;
+    }
+    .events {
+      left: calc(20% - 165px);
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .timeline {
+    .events {
+      left: calc(20% - 65px);
+      justify-content: space-between;
+      width: 500px;
+      .event {
+        width: 100%;
+        .event-informations {
+          width: 400px;
         }
       }
     }

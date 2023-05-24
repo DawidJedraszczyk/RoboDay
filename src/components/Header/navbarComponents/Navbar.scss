@@ -33,3 +33,10 @@ nav {
 .backgroundColorIsSet {
   background-color: $background-color;
 }
+@media only screen and (max-width: 1000px) {
+  nav {
+    ul {
+      display: none;
+    }
+  }
+}
